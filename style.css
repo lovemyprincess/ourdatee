@@ -391,8 +391,18 @@ flex-direction:column;
 
 button{
 
-width:100%;
-
+width:100%;.screen{
+    visibility:hidden;
+    opacity:0;
+    transition:.4s;
 }
 
+.screen.active{
+    display:flex;
+    visibility:visible;
+    opacity:1;
 }
+  
+}
+
+
