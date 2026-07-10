@@ -1,5 +1,4 @@
 // ===========================
-// Love Site by ChatGPT
 // ЧАСТЬ 1
 // ===========================
 
@@ -152,13 +151,14 @@ function moveButton(){
 
 noBtn.addEventListener("mouseenter",moveButton);
 
-noBtn.addEventListener("touchstart",(e)=>{
+noBtn.addEventListener("click",(e)=>{
 
     e.preventDefault();
 
     moveButton();
 
-});
+
+} );
 
 // ---------- Выбор времени ----------
 
