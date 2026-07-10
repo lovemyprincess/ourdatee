@@ -391,6 +391,11 @@ setInterval(()=>{
     }
 
 },6000);
+window.onload = () => {
+
+    showScreen("screen1");
+
+};
 
 // ===========================
 // Конец script.js
